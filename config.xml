@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.latincuisine.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
+    <name>Latin Cuisine</name>
+    <description>Best Latin Restaurants in Toronto</description>
+    <author email="info@felipesilva.com" href="http://www.felipesilva.com">Felipe Silva</author>
+
+    <preference name="phonegap-version" value="3.3.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+    
+    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+    
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="com.simplec.plugins.localnotification" />
+
+	<icon src="icon.png" />
+	
+    <icon src="res/icons/ios/appiconset/Icon-App-20x20@2x.png" gap:platform="ios" width="40" height="40" />
+    <icon src="res/icons/ios/appiconset/Icon-App-20x20@3x.png" gap:platform="ios" width="60" height="60" />
+    <icon src="res/icons/ios/appiconset/Icon-App-29x29@1x.png" gap:platform="ios" width="29" height="29" />
+    <icon src="res/icons/ios/appiconset/Icon-App-29x29@2x.png" gap:platform="ios" width="58" height="58" />
+    <icon src="res/icons/ios/appiconset/Icon-App-29x29@3x.png" gap:platform="ios" width="87" height="87" />
+    <icon src="res/icons/ios/appiconset/Icon-App-40x40@1x.png" gap:platform="ios" width="40" height="40" />
+    <icon src="res/icons/ios/appiconset/Icon-App-40x40@2x.png" gap:platform="ios" width="80" height="80" />
+    <icon src="res/icons/ios/appiconset/Icon-App-40x40@3x.png" gap:platform="ios" width="120" height="120" />
+    <icon src="res/icons/ios/appiconset/Icon-App-57x57@1x.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icons/ios/appiconset/Icon-App-57x57@2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="res/icons/ios/appiconset/Icon-App-60x60@1x.png" gap:platform="ios" width="60" height="60" />
+    <icon src="res/icons/ios/appiconset/Icon-App-60x60@2x.png" gap:platform="ios" width="120" height="120" />
+    <icon src="res/icons/ios/appiconset/Icon-App-60x60@3x.png" gap:platform="ios" width="180" height="180" />
+    <icon src="res/icons/ios/appiconset/Icon-App-76x76@1x.png" gap:platform="ios" width="76" height="76" />
+    <icon src="res/icons/ios/appiconset/Icon-Small-50x50@1x.png" gap:platform="ios" width="50" height="50" />
+    <icon src="res/icons/ios/appiconset/Icon-Small-50x50@2x.png" gap:platform="ios" width="100" height="100" />
+    <icon src="res/icons/ios/appiconset/Icon-App-72x72@1x.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icons/ios/appiconset/Icon-App-72x72@2x.png" gap:platform="ios" width="144" height="144" />
+    <icon src="res/icons/ios/appiconset/Icon-App-76x76@1x.png" gap:platform="ios" width="76" height="76" />
+    <icon src="res/icons/ios/appiconset/Icon-App-76x76@2x.png" gap:platform="ios" width="152" height="152" />
+    <icon src="res/icons/ios/appiconset/Icon-App-76x76@3x.png" gap:platform="ios" width="228" height="228" />
+    <icon src="res/icons/ios/appiconset/Icon-App-83.5x83.5@2x.png" gap:platform="ios" width="83.5" height="83.5" />
+
+    <icon src="res/icons/android/mipmap-ldpi/ic_launcher.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="res/icons/android/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icons/android/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="res/icons/android/mipmap-xdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="res/icons/android/mipmap-xxdpi/ic_launcher.png" gap:platform="android" gap:density="xxhdpi" />
+    <icon src="res/icons/android/mipmap-xxxdpi/ic_launcher.png" gap:platform="android" gap:density="xxxhdpi" />
+	
+    <gap:splash src="splash.png" />
+    
+    <gap:splash src="res/screen/android/drawable-ldpi/splash.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/drawable-mdpi/splash.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/drawable-hdpi/splash.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/drawable-xdpi/splash.png" gap:platform="android" gap:density="xhdpi" />
+    
+    <gap:splash src="res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
+    <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
+
+    <content src="http://www.latincuisine.ca" />
+    <access origin="http://www.latincuisine.ca" subdomains="true" />
+</widget>
